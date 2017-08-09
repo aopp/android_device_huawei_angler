@@ -9,9 +9,9 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 $(call inherit-product, device/huawei/angler/aosp_angler.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_angler
+PRODUCT_NAME := aopp_angler
 PRODUCT_BRAND := google
-PRODUCT_MODEL := Nexus 6P
+PRODUCT_MODEL := Pwn Phone
 
 TARGET_VENDOR := huawei
 
